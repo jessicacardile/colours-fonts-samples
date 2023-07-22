@@ -1,0 +1,202 @@
+h1,
+h2 {
+    text-align: center;
+    color: rgb(26, 13, 110);
+    margin-top: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-style: light;
+}
+
+body {
+    background-image: url(gradient.webp);
+    background-size: cover;
+    /* This stretches image to full page*/
+}
+
+.colours {
+    text-align: center;
+}
+
+.space td,
+.greens td,
+.halloween td {
+    margin: 0;
+    padding: 20px;
+    width: 200px;
+    font-weight: bold;
+}
+
+table {
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.neon td,
+.night td,
+.sunset td {
+    margin: 0;
+    padding: 20px;
+    width: 200px;
+    font-weight: bold;
+
+}
+
+th {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0C134F;
+    background-color: #9DB2BF;
+}
+
+/*Palette tables section*/
+#a {
+    background-color: #0C134F;
+}
+
+#b {
+    background-color: #1D267D;
+}
+
+#c {
+    background-color: #5C469C;
+}
+
+#d {
+    background-color: #D4ADFC;
+}
+
+#e {
+    background-color: #0A4D68;
+}
+
+#f {
+    background-color: #088395;
+}
+
+#g {
+    background-color: #05BFDB;
+}
+
+#h {
+    background-color: #00FFCA;
+}
+
+#i {
+    background-color: #454545;
+}
+
+#j {
+    background-color: #FF6000;
+}
+
+#k {
+    background-color: #FFA559;
+}
+
+#l {
+    background-color: #FFE6C7;
+}
+
+#m {
+    background-color: #4C0027;
+}
+
+#n {
+    background-color: #570530;
+}
+
+#o {
+    background-color: #750550;
+}
+
+#p {
+    background-color: #980F5A;
+}
+
+#q {
+    background-color: #E8FFCE;
+}
+
+#r {
+    background-color: #ACFADF;
+}
+
+#s {
+    background-color: #ACFADF
+}
+
+#t {
+    background-color: #7C73C0;
+}
+
+#u {
+    background-color: #F39189;
+}
+
+#v {
+    background-color: #BB8082;
+}
+
+#w {
+    background-color: #6E7582;
+}
+
+#x {
+    background-color: #046582;
+}
+
+/*Fonts section*/
+#f1 {
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: 400;
+}
+
+#f2 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 300;
+    font-style: light;
+}
+
+#f3 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+
+#f4 {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: 400;
+}
+
+#f5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+#f6 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-style: light;
+}
+
+/*Parent Div and Children*/
+.fonts {
+    border: 2px solid black;
+    display: flex;
+    /*This should make parent div able to contain both child divs*/
+}
+
+.up {
+    background-color: #f5f5a8;
+    width: 50%;
+    display: inline-block;
+}
+
+.down {
+    background-color: #829de8;
+    width: 50%;
+    float: right;
+
+}
